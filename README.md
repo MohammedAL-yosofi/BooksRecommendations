@@ -16,7 +16,7 @@
 
 - Amer Mansour
 
-<span style="color:red ;font-size:17px; font-weight:600"> **Instructor**: *Eng. Rana*</span>
+<span style="color:blue ;font-size:17px; font-weight:600"> **Instructor**: *Eng. Rana*</span>
 
 
 ### Home Page Before Registering
