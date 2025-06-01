@@ -1,5 +1,4 @@
 
-
 # SorryForTheAbsence - Book Recommendation System
 
 "SorryForTheAbsence" is a book recommendation system designed to suggest Arabic books and articles. It leverages content-based similarity from text embeddings and incorporates user reading history for personalized suggestions. The frontend is built with React and the backend with FastAPI.
@@ -17,7 +16,7 @@
 
 - Amer Mansour
 
-**Instructor**: *Eng. Rana*
+<span style="color:red ;font-size:17px; font-weight:600"> **Instructor**: *Eng. Rana*</span>
 
 
 ### Home Page Before Registering
@@ -160,8 +159,14 @@ Usually the frontend will be available at `http://localhost:5173`
 # Notes 
 
 - ### Generate Data Artifacts
-Ensure you have necessary files in the data/ directory *or* run the booksRecomendations.ipynb to generate the necessary files in the data/ directory ( book_metadata.csv, similarity_matrix.npy, etc. we mentioned before) . This step is crucial as the backend relies on these precomputed artifacts. **or /** you can download them from these link:
+Ensure you have necessary files in the data/ directory *or* run the booksRecomendations.ipynb to generate the necessary files in the data/ directory ( book_metadata.csv, similarity_matrix.npy, etc. we mentioned before) . This step is crucial as the backend relies on these precomputed artifacts. **or /**also you can download them from these link:
 
 https://drive.google.com/drive/folders/1RV591D1SOqWxLsqWpmhtzd_dETfoVOLW?usp=sharing
-- ### the dataset we used is not good and contains
+
+
+- ### Dataset Used
+It's important to note that the raw dataset contains some quality issues, including duplicate entries, inconsistent categorization, and noisy descriptions (e.g., internal text repetitions, non-Arabic content). Significant preprocessing and cleaning steps (deduplication, language filtering, text normalization) were applied to mitigate these issues. However, the inherent characteristics of the source data may still influence the precision of some recommendations. <br/>
+So improved data quality would further enhance the system's performance.
+
+### 
 
